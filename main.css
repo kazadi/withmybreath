@@ -1,0 +1,42 @@
+:root {
+    --sticker-font: 'Arial';
+}
+
+#wmb_form {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    border: 1px solid #dbdbdb;
+    padding: 40px 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, .1), 0 10px 30px 0 rgba(0, 0, 0, .2);
+}
+
+.wmb_form form {
+    display: flex;
+}
+
+.wmb_text-container {
+    text-align: center;
+    display: none;
+}
+
+.wmb_name p,
+.wmb_action p {
+    display: inline;
+}
+
+#name_fill {
+    white-space: nowrap;
+}
+
+#action_fill {
+    text-decoration: underline;
+}
+
+#wmb_Img {
+    display: block;
+    margin: 0 auto;
+}
